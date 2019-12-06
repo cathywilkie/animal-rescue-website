@@ -1,0 +1,40 @@
+html {
+  font-family: "Open Sans", serif;
+}
+
+h1,
+h2 {
+  font-family: "Calistoga", cursive;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(128, 0, 53);
+}
+
+h3 {
+  color: rgb(128, 0, 53);
+}
+
+.masthead,
+.footer {
+  background-color: #eeeeee;
+  color: rgb(128, 0, 53);
+}
+
+.nav a {
+  color: rgb(128, 0, 53);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  border-bottom: .15em solid currentColor;
+}
+
+.logo {
+  width: 64px;
+}
+
+.banner-content {
+  color: #000;
+}
