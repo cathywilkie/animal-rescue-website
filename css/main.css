@@ -16,23 +16,20 @@ html {
 .btn {
   color: #fff;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 12px;
+  text-shadow: 0 1px 3px #4d47512a;
 }
 
 .btn-ghost {
-  padding: .5em;
+  padding: .3em .5em;
   border: solid 1.5px #fff;
-  transition: all .2s linear;
-  transform-origin: left top;
 }
 
-.play-button {
-  color: #fff;
-}
-
-.logo {
-  text-decoration: none;
-  color: rgb(128, 0, 53);
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: #fff;
+  color: #160b02;
+  border-color: #fff;
 }
 
 h3 {
@@ -41,7 +38,7 @@ h3 {
 
 .masthead,
 .footer {
-  background-color: #eeeeee;
+  background-color: #fff9f9;
   color: rgb(128, 0, 53);
 }
 
@@ -56,4 +53,6 @@ h3 {
 
 .logo {
   width: 64px;
+  text-decoration: none;
+  color: rgb(128, 0, 53);
 }
