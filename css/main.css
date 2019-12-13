@@ -13,46 +13,105 @@ html {
   text-shadow: 0 1px 10px #4d4751;
 }
 
-.btn {
+.btn-banner {
   color: #fff;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 24px;
   text-shadow: 0 1px 3px #4d47512a;
-}
-
-.btn-ghost {
-  padding: .3em .5em;
+  padding: .6em 1em;
   border: solid 1.5px #fff;
 }
 
-.btn-ghost:hover,
-.btn-ghost:focus {
+.btn-banner:hover,
+.btn-banner:focus {
   background-color: #fff;
   color: #160b02;
   border-color: #fff;
+}
+
+.btn-learn {
+  color: #CE005E;
+  border-color: #CE005E;
+  border-radius: 20px;
+}
+
+.btn-learn:hover,
+.btn-learn:focus {
+  background-color: #CE005E;
+  color: #fff;
+  border-color: #CE005E;
+}
+
+.learn-sub {
+  color: #CE005E;
+}
+
+.learn-desc {
+  color: #4d4751;
+  line-height: 1.2rem;
+}
+
+h2 {
+  font-family: 'Montserra', sans-serif;
+  color: #CE005E;
 }
 
 h3 {
   color: rgb(128, 0, 53);
 }
 
-.masthead,
 .footer {
-  background-color: #fff9f9;
-  color: rgb(128, 0, 53);
+  background-color: rgb(48, 0, 16);
+  color: #CE005E;
 }
 
 .nav a {
   color: rgb(128, 0, 53);
   text-decoration: none;
+  border-bottom: .15em solid #fff;
 }
 
 .nav a:hover {
-  border-bottom: .15em solid currentColor;
+  border-bottom: .15em solid rgb(128, 0, 53);
 }
 
 .logo {
   width: 64px;
   text-decoration: none;
   color: rgb(128, 0, 53);
+}
+
+.social-links a,
+.social-links a:active {
+  text-decoration: none;
+}
+
+.residents {
+  color: #CE005E;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.resident-grid a {
+  transition: all .2s linear;
+  text-decoration: none;
+}
+
+.resident-grid a:hover {
+  transform: scale(1.05);
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+select,
+textarea,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border-color: #CE005E;
+  border-radius: 16px;
+  padding: .5em .5em;
 }
